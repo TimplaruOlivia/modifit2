@@ -6,19 +6,19 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: #FFFFFF;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #F84A98;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #F84A98;
 }
 
 /* Effect on social media buttons */
@@ -30,8 +30,11 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #B2ED58;
 	font-weight: bold;
+	background: #F84A98
+		
+	
 }
 
 /* Hero Section shadow */
