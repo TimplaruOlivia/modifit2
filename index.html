@@ -54,17 +54,7 @@
 </nav>
     <!-- End of navigation bar -->
 
-   
-	
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+  
 	
 	<!-- Start of main placeholder in landing page -->
     <main class="h-100 d-flex flex-column justify-content-center align-items-center">
@@ -86,6 +76,25 @@
 	    </div>
       </div>
     </main>
+	
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+
+  window.addEventListener('scroll', function () {
+    const scrollTop = window.scrollY;
+
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down
+      navbar.style.top = "-80px"; // adjust height as needed
+    } else {
+      // Scrolling up
+      navbar.style.top = "0";
+    }
+
+    lastScrollTop = scrollTop;
+  });
+</script>
     <!-- End of main placeholder -->
 
   </body>
