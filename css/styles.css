@@ -45,8 +45,10 @@ footer a:hover {
 }
 .navbar {
 	background-color: rgba(178, 237, 88, 0.5) !important; 
-	
-    
+	transition: top 0.4s;
+	position: fixed;
+	width: 100%;
+	z-index: 1030;
 		
 }
 
