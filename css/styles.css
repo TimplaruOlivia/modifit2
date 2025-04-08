@@ -44,7 +44,7 @@ footer a:hover {
 		
 }
 .navbar {
-	background-color: rgba(178, 237, 88, 0.5) !important; 
+	background-color: rgba(0, 0, 0, 0.5) !important; 
 	transition: top 0.4s;
 	position: fixed;
 	width: 100%;
@@ -59,7 +59,7 @@ footer a:hover {
 
 .btn-outline-success {
 	border-radius:35px;
-  border: 2px solid #73AD21;
+  border: 2px solid #7AAD21;
   padding: 3px;
   width: 110px;
   height: 37px;
