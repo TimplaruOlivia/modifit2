@@ -42,6 +42,7 @@ header {
 
 .navbar {
 	background-color: #F84A98;
+	font-size: 23px
 }
 
 /* Effect on social media buttons */
@@ -67,6 +68,11 @@ footer a:hover {
 
 }
 
+.navbar-nav .nav-item {
+	margin-right: 90px;
+	
+
+}
 /* Search Button Style*/
 
 .btn-outline-success {
