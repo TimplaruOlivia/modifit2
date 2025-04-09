@@ -1,5 +1,6 @@
 /* Importing a Google Font */
 
+/* Font Lora for headings*/
 
 .lora-custom {
   font-family: "Lora", serif;
@@ -8,6 +9,7 @@
   font-style: normal;
 }
 
+/* Images*/
 
 
 img {
@@ -15,6 +17,14 @@ img {
     height: auto;
     max-width: 100%;
 }
+
+/* Logo of the navbar image*/
+
+.logo-img {
+  height: 45px;
+  width: auto;
+}
+
 /* Changing the main font and background colour */
 
 body {
@@ -57,21 +67,20 @@ footer a:hover {
 
 }
 
+/* Search Button Style*/
+
 .btn-outline-success {
 	border-radius:35px;
   border: 2px solid #7AAD21;
-  padding: 3px;
+  padding: 2px;
   width: 110px;
   height: 37px;
-	
-	}
-.navbar-nav .navbar-brand {
-	color: #FB1CD5 !important;
-	
+ margin-left: 10px;
+
 	
 }
 		
-/* Hero Section shadow */
+/* White text shadow */
 
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
@@ -79,3 +88,24 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%; 
+}
+
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  font-size: 3rem; 
+  color: #FFFFFF; 
+  font-family: "Lora", serif; 
+  font-weight: 700; 
+  text-align: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
