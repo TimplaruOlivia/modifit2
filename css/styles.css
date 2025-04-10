@@ -9,6 +9,12 @@
   font-style: normal;
 }
 
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Images*/
 
 
@@ -17,6 +23,12 @@ img {
     height: auto;
     max-width: 100%;
 	 
+}
+
+.large-image {
+  width: 100%;
+  height: auto;
+  max-height: 1600px;
 }
 
 /* Logo of the navbar image*/
@@ -171,6 +183,15 @@ footer a:hover {
 
 .carousel {
 	margin-top: -330px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust this value as needed */
 }
 .new-arrivals-section {
   margin-top: -20px; 
