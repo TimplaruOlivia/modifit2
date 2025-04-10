@@ -16,6 +16,7 @@ img {
     width: auto;
     height: auto;
     max-width: 100%;
+	 
 }
 
 /* Logo of the navbar image*/
@@ -69,7 +70,7 @@ footer a:hover {
 }
 
 .navbar-nav .nav-item {
-	margin-right: 90px;
+	margin-right: 30px;
 	
 
 }
@@ -95,6 +96,8 @@ footer a:hover {
 		0 0 .5em white;
 }
 
+/* Header image+text+button*/
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -104,14 +107,89 @@ footer a:hover {
 
 .overlay-text {
   position: absolute;
-  bottom: 20px; 
-  left: 50%; 
-  transform: translateX(-50%);
-  font-size: 3rem; 
+  bottom: 210px; 
+  left: 30px; 
+  font-size: 50px;
   color: #FFFFFF; 
   font-family: "Lora", serif; 
   font-weight: 700; 
-  text-align: center; 
+  text-align: left; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
 }
 
+
+.bottom-left {
+  position: absolute;
+  bottom: 160px;  
+  left: 30px;    
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Optional: adds shadow to text */
+}
+
+/* Button 'shop now' from the heading' */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: relative;
+  bottom: 90px;
+  left: -305px;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+	
+/* Carousel */
+
+.carousel-img {
+	width: 50%;
+	max-width: 150px;
+	height: 0 auto;
+	border-radius: 10px;
+	box-sizing: content-box 30px;
+	
+	}
+
+.carousel {
+	margin-top: -330px;
+}
+.new-arrivals-section {
+  margin-top: -20px; 
+  text-align: left;
+}
+
+.new-arrivals-section h3 {
+  font-size: 2rem;
+  font-weight: bold; 
+  color: #F84A98; 
+  margin-left: 5px;
+	
+}
+
+.why-choose-us h4 {
+  font-size: 2rem;
+  font-weight: bold; 
+  color: #F84A98; 
+  margin-left: 5px;
+	
+}
+	
