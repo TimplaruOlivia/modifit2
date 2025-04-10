@@ -195,7 +195,7 @@ footer a:hover {
 }
 .new-arrivals-section {
   margin-top: -20px; 
-  text-align: middle;
+  text-align: left;
 }
 
 .new-arrivals-section h3 {
@@ -222,4 +222,150 @@ footer a:hover {
   color: #F84A98; /* Hot pink text */
 }
 
+.shop-now-btn {
+  background: linear-gradient(135deg, #F84A98, #FB1CD5);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background: linear-gradient(135deg, #FB1CD5, #F84A98);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.small-btn {
+  font-size: 14px;
+  padding: 8px 20px;
+}
 	
+
+
+/* Contact Us Section Styles */
+.contact-us-section {
+  background-color: #F7F7F7;
+  padding: 50px 40px;
+  margin-top: 40px;
+}
+
+.contact-us-section h2 {
+  color: #F84A98;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-us-section .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-section .col-md-6 {
+  margin-bottom: 30px;
+}
+
+.contact-us-section a {
+  color: #F84A98;
+  text-decoration: none;
+}
+
+.contact-us-section a:hover {
+  text-decoration: underline;
+}
+
+.contact-us-section .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-us-section .form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-us-section .form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.contact-us-section .btn-info {
+  background-color: #F84A98;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 35px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.contact-us-section .btn-info:hover {
+  background-color: #D2397A;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .contact-us-section .row {
+    flex-direction: column;
+  }
+}
+
+
+/* New Arrivals Styling for Product Items */
+.product-item {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.product-info {
+  padding: 15px;
+  
+}
+
+.star-rating {
+  font-size: 1.5rem;
+  color: #F84A98; /* Pink color for stars */
+  margin-bottom: 10px;
+}
+
+.star {
+  margin-right: 5px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #F84A98;
+  margin-top: 10px;
+}
+
+/* Align the New Arrivals heading with the first product item */
+.new-arrivals-section {
+  text-align: left; /* Align text to the left */
+  padding-left: 40px; /* Adjust padding for left alignment */
+  margin-bottom: 30px; /* Add space below the text */
+}
+
+.new-arrivals-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F84A98; /* Pink color */
+}
+
+.new-arrivals-section {
+  text-align: left; /* Align text to the left */
+  padding-left: 40px; /* Adjust padding if needed */
+  margin-bottom: 30px; /* Optional: Add some space below */
+}
+

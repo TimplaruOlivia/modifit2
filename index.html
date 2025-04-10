@@ -46,8 +46,9 @@
     <img src="images/modifit4.jpg" width="6000" height="3376" alt="header photo"/>
   <div class="overlay-text">FIT THE GAME, FIT THE TEAM, FIT YOU </div>
 	<div class="container"> 
-	  <button type="button" class="btn btn-info">Shop Now</button>
-	</div>
+		 <button type="button" class="btn shop-now-btn">Shop Now</button>
+</div>
+
 </div> 
 
 <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
@@ -83,9 +84,7 @@
 </nav>
     <!-- End of navigation bar -->
 
-	 <!-- New Arrivals section -->
 	
-
 	
 	
 <div class="why-choose-us-section py-5">
@@ -101,18 +100,111 @@
       <!-- Right: Video -->
 		 <div class="col-md-6">
         <h2 class="why-choose-us-heading mb-4">Why Choose Us?</h2>
+			
         <p class="why-text">
           We provide high-quality sportswear designed for performance, comfort, and style. Our mission is to empower athletes and teams with gear that fits their goals. Fast shipping, fair pricing, and real passion for the game.
         </p>
+		
+			 <button type="button" class="btn shop-now-btn small-btn mt-3">Learn More</button>
+
       </div>
-		
-		
     
     
   </div>
 </div>
 
-	
+	<br>
+	<br>
+<!-- New Arrivals Section -->
+<div class="new-arrivals-section" style="text-align: left;">
+  <h2>New Arrivals</h2>
+</div>
+<div class="container-fluid" style="padding: 0 40px;"> <!-- optional padding -->
+  <div class="row">
+    <!-- First Item -->
+    <div class="col-md-4">
+      <div class="product-item">
+        <img src="images/Slide1.png" alt="First Image" style="width: 100%; height: auto; max-height: 600px;">
+        <div class="product-info">
+          <!-- Star Rating -->
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <!-- Price Tag -->
+          <p class="price">$49.99</p>
+        </div>
+      </div>
+    </div>
+    <!-- Second Item -->
+    <div class="col-md-4">
+      <div class="product-item">
+        <img src="images/Slide2.png" alt="Second Image" style="width: 100%; height: auto; max-height: 600px;">
+        <div class="product-info">
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="price">$59.99</p>
+        </div>
+      </div>
+    </div>
+    <!-- Third Item -->
+    <div class="col-md-4">
+      <div class="product-item">
+        <img src="images/Slide3.png" alt="Third Image" style="width: 100%; height: auto; max-height: 600px;">
+        <div class="product-info">
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="price">$69.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Contact Us Section -->
+<div class="contact-us-section" style="background-color: #F7F7F7; padding: 50px 40px; margin-top: 40px;">
+  <h2 class="text-center" style="color: #F84A98; font-weight: bold;">Contact Us</h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h4 style="font-weight: bold;">Our Contact Information</h4>
+      
+      <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p><strong>Phone:</strong> +123-456-7890</p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/yourcompany" target="_blank">facebook.com/yourcompany</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/yourcompany" target="_blank">instagram.com/yourcompany</a></p>
+      <!-- Add any other contact info like Twitter, LinkedIn, etc. -->
+    </div>
+
+    <div class="col-md-6">
+      <h4 style="font-weight: bold;">Send Us a Message</h4>
+      
+      <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <div class="form-group text-center">
+          <button type="submit" class="btn btn-info" style="border-radius: 35px; padding: 12px 24px;">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 	
 	
 	<!-- Start of main placeholder in landing page -->
@@ -142,22 +234,7 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 <!-- End of main placeholder -->
-<div class="new-arrivals-section" style="text-align: center;">
-  <h1><strong>NEW ARRIVALS</strong></h1>
-</div>
-<div class="container-fluid" style="padding: 0 40px;"> <!-- optional padding -->
-  <div class="row">
-    <div class="col-md-4">
-      <img src="images/Slide1.png" alt="First Image" style="width: 100%; height: auto; max-height: 600px;">
-    </div>
-    <div class="col-md-4">
-      <img src="images/Slide2.png" alt="Second Image" style="width: 100%; height: auto; max-height: 600px;">
-    </div>
-    <div class="col-md-4">
-      <img src="images/Slide3.png" alt="Third Image" style="width: 100%; height: auto; max-height: 600px;">
-    </div>
-  </div>
-</div> 
+
 	
 <script>
 	
@@ -179,5 +256,7 @@
   });
 </script>
 	</div>
+	
+
 </body>
 </html>
