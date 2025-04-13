@@ -369,3 +369,54 @@ footer a:hover {
   margin-bottom: 30px; /* Optional: Add some space below */
 }
 
+.navbar-nav {
+  margin-left: 40px; /* Adjust this value as needed */
+}
+
+
+.contact-us-section h4 {
+  color: #F84A98;
+}
+
+
+.testimonials-section {
+  background-color: #f4f4f4;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.testimonials-section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F84A98;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.testimonial p:last-child {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #F84A98;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #F84A98; /* your pink accent */
+}
+
