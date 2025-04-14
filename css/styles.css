@@ -115,8 +115,11 @@ footer a:hover {
   display: inline-block;
   width: 100%; 
 }
-
-
+.logo-img {
+  height: 45px;
+  width: auto;
+}
+ 
 .overlay-text {
   position: absolute;
   bottom: 210px; 
