@@ -68,12 +68,12 @@ footer a:hover {
 		
 }
 .navbar {
-	background-color: rgba(0, 0, 0, 0.5) !important; 
-	transition: top 0.4s;
-	position: fixed;
-	width: 100%;
-	z-index: 1030;
-		
+  background-color: rgba(0, 0, 0, 0.5) !important; 
+  transition: top 0.4s; /* This already exists, just ensure it's there */
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
+  top: 0; /* Ensure the navbar starts at the top */
 }
 
 .navbar-nav .nav-link {
@@ -436,3 +436,12 @@ footer a:hover {
   color: #F84A98; /* your pink accent */
 }
 
+}
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5) !important; 
+	transition: top 0.4s;
+	position: fixed;
+	width: 100%;
+	z-index: 1030;
+		
+}
