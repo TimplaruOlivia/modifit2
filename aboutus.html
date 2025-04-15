@@ -21,6 +21,8 @@
 </div> 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid d-flex justify-content-between align-items-center">
+    
+    <!-- Left side: Logo and navigation -->
     <div class="d-flex align-items-center">
       <a href="#" class="pull-left">
         <img src="images/Asset 1logo.png" alt="Logo Modifit" class="logo-img">
@@ -42,6 +44,27 @@
         </ul>
       </div>
     </div>
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+
+  window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down
+      navbar.style.top = '-70px'; // Adjust this value based on your navbar height
+    } else {
+      // Scrolling up
+      navbar.style.top = '0';
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+  });
+</script>
+    <div class="text-white lora-custom h4 m-0">
+      MODIFIT
+    </div>
+
   </div>
 </nav>
     <section>
@@ -51,7 +74,6 @@
             <div class="col-12">
               <h1>WHAT IS MODIFIT?</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, deleniti, ea nisi suscipit atque tempore aspernatur harum unde veritatis neque rem dolores assumenda. Recusandae facilis dolores cum iste assumenda accusamus.</p>
-              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
             </div>
           </div>
         </div>

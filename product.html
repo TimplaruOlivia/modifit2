@@ -21,6 +21,8 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid d-flex justify-content-between align-items-center">
+    
+    <!-- Left side: Logo and navigation -->
     <div class="d-flex align-items-center">
       <a href="#" class="pull-left">
         <img src="images/Asset 1logo.png" alt="Logo Modifit" class="logo-img">
@@ -42,6 +44,28 @@
         </ul>
       </div>
     </div>
+
+    <!-- Right side: MODIFIT text -->
+    <div class="text-white lora-custom h4 m-0">
+      MODIFIT
+    </div>
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+
+  window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down
+      navbar.style.top = '-70px'; // Adjust this value based on your navbar height
+    } else {
+      // Scrolling up
+      navbar.style.top = '0';
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+  });
+</script>
   </div>
 </nav>
 <div class="container-fluid mt-3">
@@ -182,10 +206,10 @@
         </div>
         <div class="col-md-4 pb-1 pb-md-0">
           <div class="card">
-            <img class="card-img-top rounded" src="images/Slide1.png" alt="Card image cap">
+            <img class="card-img-top rounded" src="images/IMG_1227.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Mouthguard Pro</h5>
-              <p class="card-text">Green and Pink</p>
+              <p class="card-text">Flower Purple/White</p>
               <a href="#" class="btn btn-primary">Add to Cart</a>
             </div>
           </div>
