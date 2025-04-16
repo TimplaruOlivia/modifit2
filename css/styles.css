@@ -18,7 +18,7 @@
 h2 {
   font-family: "Lora", serif;
   font-size: 2rem;
-  color: #000000;
+  color: #00000;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -683,5 +683,15 @@ body {
   margin: 0;
 }
 
+/* Green Price */
+.green-reviews {
+  color: #28a745; /* Green color */
+  font-weight: bold;
+}
+
+/* Green Reviews (Star Rating) */
+.green-price {
+  color: #28a745; /* Green color */
+}
 
 
