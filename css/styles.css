@@ -15,6 +15,22 @@
   font-style: normal;
 }
 
+h3 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  color: #F84A98;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  color: #b2ed58;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 /* Images*/
 
 
@@ -34,6 +50,11 @@ img {
 /* Logo of the navbar image*/
 
 .logo-img {
+  height: 45px;
+  width: auto;
+}
+
+.logo-img2 {
   height: 45px;
   width: auto;
 }
@@ -163,27 +184,32 @@ footer a:hover {
 }
 	
 /* Carousel */
-
 .carousel-img {
 	width: 50%;
 	max-width: 150px;
-	height: 0 auto;
+	height: auto;
 	border-radius: 10px;
-	box-sizing: content-box 30px;
-	
-	}
+	padding: 30px;
+	box-sizing: content-box;
+}
+
+.carousel-caption img.logo-img {
+  position: relative;
+  top: 50px; /* Pushes the image down */
+}
 
 .carousel {
 	margin-top: -330px;
-    max-width: 1200px;
-    margin: auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
-
+/* This is the important part for height */
 .carousel img {
   max-width: 100%;
-  height: auto;
-  max-height: 300px; /* Adjust this value as needed */
+  width: 100%;
+  height: 150px; /* Try lowering this for less height */
+  object-fit: cover; /* Keeps it nicely cropped */
 }
 .new-arrivals-section {
   margin-top: -20px; 
