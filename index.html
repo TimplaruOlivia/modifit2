@@ -1,286 +1,190 @@
 <!doctype html>
-
 <html lang="en" class="h-100">
-  <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PRJ4 Base Group Template Landing Page</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PRJ4 Base Group Template Landing Page</title>
 
-    <!-- CSS Stylesheets -->
-    <!-- Bootstrap CSS (Local) -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
 
-    <!-- Optional Bootstrap CDN (commented out) -->
-    <!-- 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-          crossorigin="anonymous"> 
-    -->
+  <!-- Bootstrap CSS (Local) -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap Bundle JS (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
 
-    <!-- JavaScript -->
-    <!-- Bootstrap Bundle JS (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-            crossorigin="anonymous"></script>
-
-
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
-
-    <!-- End of Google Analytics code -->
-
-  </head>
 <body class="h-100 d-flex flex-column">
-	  <div class="image-container">
-	
-     <div style="position: relative;">
-  <img src="images/modifit4.jpg" width="6000" height="3376" alt="header photo" style="width: 100%; height: auto;" />
-  
-  <div class="overlay-text">FIT THE GAME, FIT THE TEAM, FIT YOU</div>
-  
-  <div class="container text-center">
-    <a href="product.html" class="btn shop-now-btn small-btn mt-3 float-md-left">Shop Now</a>
-  </div>
-</div>
-	</div>
-
-<!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <div class="container-fluid d-flex justify-content-between align-items-center">
-    
-    <!-- Left side: Logo and navigation -->
-    <div class="d-flex align-items-center">
-      <a href="#" class="pull-left">
-        <img src="images/Asset 1logo.png" alt="Logo Modifit" class="logo-img">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link lora-custom" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link lora-custom" href="aboutus.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link lora-custom" href="product.html">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link lora-custom" href="corporate.html">Corporate</a>
-          </li>
-        </ul>
-		  	<img src="images/Asset1ModifitLogo.png" alt="Top Icon" class="top-right-icon">
+  <div class="image-container">
+    <div style="position: relative;">
+      <img src="images/modifit4.jpg" alt="header photo" class="img-fluid w-100" />
+      <div class="overlay-text">FIT THE GAME, FIT THE TEAM, FIT YOU</div>
+      <div class="container text-center">
+        <a href="product.html" class="btn shop-now-btn small-btn mt-3 float-md-left">Shop Now</a>
       </div>
     </div>
-
-    <!-- Right side: MODIFIT text -->
-    
-	
-   
-<script>
-  let lastScrollTop = 0;
-  const navbar = document.querySelector('.navbar');
-
-  window.addEventListener('scroll', function() {
-    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (currentScroll > lastScrollTop) {
-      // Scrolling down
-      navbar.style.top = '-70px'; // Adjust this value based on your navbar height
-    } else {
-      // Scrolling up
-      navbar.style.top = '0';
-    }
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
-  });
-</script>
   </div>
-</nav>
-	
-    <!-- End of navigation bar -->
-	
-<div class="why-choose-us-section py-5 bg-light">
-  <div class="row align-items-center container-fluid">
-    
-    <!-- Left Column: Image -->
-<div class="col-md-6 p-0">
-  <img 
-    src="images/mouthguards/PHOTO-2025-04-14-19-41-39 2.jpg" 
-    class="img-fluid rounded" 
-    style="width: 80%; margin-left: 2rem;" 
-    alt="Why Choose Us Image"/>
-</div>
-    <!-- Right Column: Text & Button -->
-    <div class="col-md-6 px-5">
-      <h2 class="why-choose-us-heading mb-4">Why Choose Us?</h2>
 
-      <p class="why-text">
-        We provide high-quality sportswear designed for performance, comfort, and style. Our mission is to empower athletes and teams with gear that fits their goals. Fast shipping, fair pricing, and real passion for the game.
-      </p>
-
-      <p class="why-text">
-        Our newest Mouthguard Pro uses advanced vacuum-seal technology for a secure, non-slip fit during intense games. When you put it in, air escapes through tiny channels, forming a tight yet comfortable seal that stays in place without needing adjustments. To remove it, just pull on the side with your fingernail to break the vacuum and easily take it out.
-      </p>
-
-      <a href="aboutus.html" class="btn shop-now-btn small-btn mt-3">Learn More</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <a href="#" class="pull-left">
+          <img src="images/Asset 1logo.png" alt="Logo Modifit" class="logo-img img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link lora-custom" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link lora-custom" href="aboutus.html">About us</a></li>
+            <li class="nav-item"><a class="nav-link lora-custom" href="product.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link lora-custom" href="corporate.html">Corporate</a></li>
+          </ul>
+          <img src="images/Asset1ModifitLogo.png" alt="Top Icon" class="top-right-icon img-fluid">
+        </div>
+      </div>
     </div>
+  </nav>
 
+  <div class="why-choose-us-section py-5 bg-light">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6 p-0">
+          <img src="images/mouthguards/PHOTO-2025-04-14-19-41-39 2.jpg" class="img-fluid rounded mx-4"
+            alt="Why Choose Us Image" />
+        </div>
+        <div class="col-md-6 px-5 mt-4 mt-md-0">
+          <h2 class="why-choose-us-heading mb-4">Why Choose Us?</h2>
+          <p class="why-text">
+            We provide high-quality sportswear designed for performance, comfort, and style. Our mission is to empower
+            athletes and teams with gear that fits their goals. Fast shipping, fair pricing, and real passion for the
+            game.
+          </p>
+          <p class="why-text">
+            Our newest Mouthguard Pro uses advanced vacuum-seal technology for a secure, non-slip fit during intense
+            games. When you put it in, air escapes through tiny channels, forming a tight yet comfortable seal that
+            stays in place without needing adjustments. To remove it, just pull on the side with your fingernail to
+            break the vacuum and easily take it out.
+          </p>
+          <a href="aboutus.html" class="btn shop-now-btn small-btn mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-    
 
-
-
-	<br>
-	<br>
-<!-- New Arrivals Section -->
-<div class="new-arrivals-section" style="text-align: left;">
-  <h2>New Arrivals</h2>
-</div>
-<div class="container-fluid" style="padding: 0 40px;"> <!-- optional padding -->
-  <div class="row">
-    <!-- First Item -->
-    <div class="col-md-4">
-      <div class="product-item">
-        <img src="images/IMG_1226.jpg" alt="First Image" style="width: 100%; height: auto; max-height: 600px;">
-        <div class="product-info">
-          <!-- Star Rating -->
-          <div class="star-rating green-reviews">
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
+  <div class="new-arrivals-section text-left px-4">
+    <h2>New Arrivals</h2>
+  </div>
+  <div class="container-fluid px-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="product-item">
+          <img src="images/IMG_1226.jpg" alt="First Image" class="img-fluid w-100" style="max-height: 600px;">
+          <div class="product-info">
+            <div class="star-rating green-reviews">
+              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
+                class="star">&#9733;</span><span class="star">&#9733;</span>
+            </div>
+            <p class="price green-price">$29.99</p>
+            <a href="product.html" class="btn shop-now-btn">Shop Now</a>
           </div>
-          <!-- Price Tag -->
-          <p class="price green-price">$29.99</p>
-          <!-- Shop Now Button -->
-          <a href="product.html" class="btn shop-now-btn">Shop Now</a>
         </div>
       </div>
-    </div>
-
-    <!-- Second Item -->
-    <div class="col-md-4">
-      <div class="product-item">
-        <img src="images/Slide2.png" alt="Second Image" style="width: 100%; height: auto; max-height: 600px;">
-        <div class="product-info">
-          <div class="star-rating green-reviews">
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-           
+      <div class="col-md-4 mb-4">
+        <div class="product-item">
+          <img src="images/Slide2.png" alt="Second Image" class="img-fluid w-100" style="max-height: 600px;">
+          <div class="product-info">
+            <div class="star-rating green-reviews">
+              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
+                class="star">&#9733;</span>
+            </div>
+            <p class="price green-price">$29.99</p>
+            <a href="product.html" class="btn shop-now-btn">Shop Now</a>
           </div>
-          <p class="price green-price">$29.99</p>
-          <a href="product.html" class="btn shop-now-btn">Shop Now</a>
         </div>
       </div>
-    </div>
-
-    <!-- Third Item -->
-    <div class="col-md-4">
-      <div class="product-item">
-        <img src="images/Slide3.png" alt="Third Image" style="width: 100%; height: auto; max-height: 600px;">
-        <div class="product-info">
-          <div class="star-rating green-reviews">
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
-            <span class="star">&#9733;</span>
+      <div class="col-md-4 mb-4">
+        <div class="product-item">
+          <img src="images/Slide3.png" alt="Third Image" class="img-fluid w-100" style="max-height: 600px;">
+          <div class="product-info">
+            <div class="star-rating green-reviews">
+              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
+                class="star">&#9733;</span><span class="star">&#9733;</span>
+            </div>
+            <p class="price green-price">$29.99</p>
+            <a href="product.html" class="btn shop-now-btn">Shop Now</a>
           </div>
-          <p class="price green-price">$29.99</p>
-          <a href="product.html" class="btn shop-now-btn">Shop Now</a>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<br>
-	<br>
-	<br>
-
- 
-	
-	  <div class="contact-us-section" style="background-color: #B2ED58; padding: 50px 40px;">
-	<div class="row">
-    <div class="col-md-6 col-12 mb-4">
-      <h4 style="font-weight: bold;">Contact Us</h4>
-      <p><strong>Email:</strong> <a href="mailto:contact@modifit.com">contact@modifit.com</a></p>
-      <p><strong>Phone:</strong> +123-456-7890</p>
-      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/modifit_nl/" target="_blank">instagram.com/modifit_nl</a></p>
-    </div>
-    <div class="col-md-6 col-12">
-      <h4 style="font-weight: bold #F84A98;"><strong>Send Us a Message</strong></h4>
-      <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-        <div class="form-group">
-          <label for="message" class="form-label #F84A98;">Your Message</label>
-          <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
-        </div>
-
-        <div class="form-group">
-          <button type="submit" class="btn btn-info" style="border-radius: 35px; padding: 12px 24px;">Send Message</button>
-        </div>
-      </form>
+  <div class="contact-us-section" style="background-color: #B2ED58; padding: 50px 40px;">
+    <div class="row">
+      <div class="col-md-6 col-12 mb-4">
+        <h4 style="font-weight: bold;">Contact Us</h4>
+        <p><strong>Email:</strong> <a href="mailto:contact@modifit.com">contact@modifit.com</a></p>
+        <p><strong>Phone:</strong> +123-456-7890</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/modifit_nl/" target="_blank">instagram.com/modifit_nl</a></p>
+      </div>
+      <div class="col-md-6 col-12">
+        <h4 style="font-weight: bold #F84A98;"><strong>Send Us a Message</strong></h4>
+        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-info" style="border-radius: 35px; padding: 12px 24px;">Send Message</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</div>
-	
-	  <footer class="footer bg-dark text-white text-center py-4 ">
-  <div class="container">
-    <p class="mb-1">&copy; 2025 Modifit. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="index.html" class="text-white mx-2">Home</a> |
-      <a href="aboutus.html" class="text-white mx-2">About</a> |
-      <a href="index.html" class="text-white mx-2">Contact</a>
+
+  <footer class="footer bg-dark text-white text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Modifit. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html" class="text-white mx-2">Home</a> |
+        <a href="aboutus.html" class="text-white mx-2">About</a> |
+        <a href="index.html" class="text-white mx-2">Contact</a>
+      </div>
+      <div class="social-icons mt-2">
+        <a href="https://www.instagram.com/modifit_nl/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-		  </div>
-    <div class="social-icons mt-2">
-      <a href="https://www.instagram.com/modifit_nl/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-    </div>
+  </footer>
 
-</footer>
-	
-	
-	<!-- Start of main placeholder in landing page -->
-	
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.4.1.js"></script>
-<!-- End of main placeholder -->
-
-	
-<script>
-	
-  let lastScrollTop = 0;
-  const navbar = document.querySelector('.navbar');
-
-  window.addEventListener('scroll', function () {
-    const scrollTop = window.scrollY;
-
-    if (scrollTop > lastScrollTop) {
-      // Scrolling down
-      navbar.style.top = "-80px"; // adjust height as needed
-    } else {
-      // Scrolling up
-      navbar.style.top = "0";
-    }
-
-    lastScrollTop = scrollTop;
-  });
-</script>
-	
-	
+  <!-- Scripts -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', function () {
+      const scrollTop = window.scrollY;
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    });
+  </script>
 </body>
 </html>
