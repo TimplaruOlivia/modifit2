@@ -112,11 +112,24 @@ footer a:hover {
 
 .navbar-nav .nav-item {
 	margin-right: 30px;
-	
 
 	
 }
-		
+.shop-now-btn {
+  background: linear-gradient(135deg, #F84A98, #FB1CD5);
+  color: white;
+  border: none;
+  border-radius: 50px; /* updated */
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+	
 /* White text shadow */
 
 .white-shadow {
@@ -255,25 +268,9 @@ footer a:hover {
   color: #F84A98; /* Hot pink text */
 }
 
-.shop-now-btn {
-  background: linear-gradient(135deg, #F84A98, #FB1CD5);
-  color: white;
-  border: none;
-  border-radius: 30px;
-  padding: 12px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
 
-.shop-now-btn:hover {
-  background: linear-gradient(135deg, #FB1CD5, #F84A98);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-  transform: translateY(-3px);
-}
+
+
 
 .small-btn {
   font-size: 14px;
@@ -286,13 +283,13 @@ footer a:hover {
 .contact-us-section {
   background-color: #F7F7F7;
   padding: 50px 40px;
-  margin-top: 40px;
+  
 }
 
 .contact-us-section h2 {
   color: #F84A98;
   font-weight: bold;
-  margin-bottom: 30px;
+  
 }
 
 .contact-us-section .row {
@@ -301,7 +298,7 @@ footer a:hover {
 }
 
 .contact-us-section .col-md-6 {
-  margin-bottom: 30px;
+  
 }
 
 .contact-us-section a {
@@ -314,7 +311,7 @@ footer a:hover {
 }
 
 .contact-us-section .form-group {
-  margin-bottom: 20px;
+  
 }
 
 .contact-us-section .form-label {
@@ -324,7 +321,6 @@ footer a:hover {
 
 .contact-us-section .form-control {
   border-radius: 10px;
-  padding: 10px;
   border: 1px solid #ddd;
   width: 100%;
 }
@@ -452,7 +448,7 @@ body {
 .values-section {
     text-align: center;
     padding: 50px 20px;
-    background-color: #ffffff;
+    background-color: #F9F9F9;
 }
 
 .values-section h2 {
@@ -469,7 +465,7 @@ body {
 }
 
 .value-box {
-    background-color: #f0f0f0;
+    background-color: #F9F9F9;
     padding: 30px;
     border-radius: 15px;
     width: 250px;
@@ -511,7 +507,7 @@ body {
 .value-box h3,
 .value-box p,
 .value-box .icon {
-    color: #ffffff;
+    color: #F9F9F9;
 }
 
 .why-choose-us h2 {
@@ -535,8 +531,7 @@ body {
 
 .team-section {
   text-align: center;
-  padding: 60px 20px;
-  background-color: #ffffff;
+  background-color: #F9F9F9;
 }
 
 .team-heading {
@@ -544,13 +539,14 @@ body {
   font-weight: bold;
   color: #F84A98;
   margin-bottom: 40px;
+ 
 }
 
 .team-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 90px;
 }
 
 .team-member {
@@ -621,7 +617,7 @@ body {
   color: #F84A98; /* Pink */
   font-size: 2rem;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   margin-bottom: 15px;
 }
 
@@ -634,7 +630,7 @@ body {
 
 .vision, .mission {
   flex: 1;
-  background-color: #f0f0f0;
+  background-color: #F9F9F9;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -647,7 +643,7 @@ body {
 }
 
 .green-box {
-  background-color: #B2ED58; /* Bright green */
+  background-color: #F9F9F9; 
   padding: 50px 40px;
   border-radius: 15px;
   margin: 40px 0;
@@ -664,7 +660,7 @@ body {
 .column {
   flex: 1 1 45%;
   min-width: 280px;
-  background-color: #ffffff;
+  background-color: #B2ED58;
   padding: 25px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
