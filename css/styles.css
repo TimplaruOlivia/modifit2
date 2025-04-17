@@ -718,3 +718,13 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  /* makes it pop a bit */
 }
 
+.small-image {
+  width: 150px;
+  height: auto;
+}
+
+.medium-image {
+	width:400;
+		height: auto
+		
+}
