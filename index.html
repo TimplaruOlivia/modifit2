@@ -27,7 +27,7 @@
 <body class="h-100 d-flex flex-column">
   <div class="image-container">
     <div style="position: relative;">
-      <img src="images/modifit4.jpg" alt="header photo" class="img-fluid w-100" />
+      <img src="images/Header_0.jpg" alt="header photo" class="img-fluid w-100" />
       <div class="overlay-text">FIT THE GAME, FIT THE TEAM, FIT YOU</div>
       <div class="container text-center">
         <a href="product.html" class="btn shop-now-btn small-btn mt-3 float-md-left">Shop Now</a>
@@ -35,35 +35,65 @@
     </div>
   </div>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-      <div class="d-flex align-items-center">
-        <a href="#" class="pull-left">
-          <img src="images/Asset 1logo.png" alt="Logo Modifit" class="logo-img img-fluid">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link lora-custom" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link lora-custom" href="aboutus.html">About us</a></li>
-            <li class="nav-item"><a class="nav-link lora-custom" href="product.html">Shop</a></li>
-            <li class="nav-item"><a class="nav-link lora-custom" href="corporate.html">Corporate</a></li>
-          </ul>
-          <img src="images/Asset1ModifitLogo.png" alt="Top Icon" class="top-right-icon img-fluid">
-        </div>
+  <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    
+    <!-- Left side: Logo and navigation -->
+    <div class="d-flex align-items-center">
+      <a href="#" class="pull-left">
+        <img src="images/LogoTransparent.png" alt="Logo Modifit" class="logo-img">
+      </a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link lora-custom" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lora-custom" href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lora-custom" href="product.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lora-custom" href="corporate.html">Corporate</a>
+          </li>
+        </ul>
+		    <img src="images/Logo_Transparent_Modifit.png" alt="Top Icon" class="top-right-icon">
       </div>
     </div>
-  </nav>
 
+    <!-- Right side: MODIFIT text -->
+   
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector('.navbar');
+
+  window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down
+      navbar.style.top = '-70px'; // Adjust this value based on your navbar height
+    } else {
+      // Scrolling up
+      navbar.style.top = '0';
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
+  });
+</script>
+  </div>
+</nav>
+    <!-- End of navigation bar -->
   <div class="why-choose-us-section py-5 bg-light">
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-md-6 p-0">
-          <img src="images/mouthguards/PHOTO-2025-04-14-19-41-39 2.jpg" class="img-fluid rounded mx-4"
+          <img src="images/Mouthguard3.jpg" class="img-fluid rounded mx-4"
             alt="Why Choose Us Image" />
         </div>
         <div class="col-md-6 px-5 mt-4 mt-md-0">
@@ -92,7 +122,7 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="product-item">
-          <img src="images/IMG_1226.jpg" alt="First Image" class="img-fluid w-100" style="max-height: 600px;">
+          <img src="images/Mouthguard9.jpg" alt="First Image" class="img-fluid w-100" style="max-height: 600px;">
           <div class="product-info">
             <div class="star-rating green-reviews">
               <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
@@ -105,7 +135,7 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="product-item">
-          <img src="images/Slide2.png" alt="Second Image" class="img-fluid w-100" style="max-height: 600px;">
+          <img src="images/Mouthguard2.png" alt="Second Image" class="img-fluid w-100" style="max-height: 600px;">
           <div class="product-info">
             <div class="star-rating green-reviews">
               <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
@@ -118,7 +148,7 @@
       </div>
       <div class="col-md-4 mb-4">
         <div class="product-item">
-          <img src="images/Slide3.png" alt="Third Image" class="img-fluid w-100" style="max-height: 600px;">
+          <img src="images/Mouthguard1.png" alt="Third Image" class="img-fluid w-100" style="max-height: 600px;">
           <div class="product-info">
             <div class="star-rating green-reviews">
               <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
